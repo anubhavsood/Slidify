@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Air Quality</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Air Quality">
+  <meta name="author" content="Anubhav Sood">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Air Quality</h1>
+    <h2>New York City, Year 1973</h2>
+    <p>Anubhav Sood<br/>Data Analyst</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Dataset</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The &#39;Air Quality&#39; dataset consists of four parameters (Ozone, Solar Radiation, Wind and Temperature) which are used to determine the air quality of New York city for the month of May-September in the year 1973.<br/><br/>
+The data were obtained from the New York State Department of Conservation (ozone data) and the National Weather Service (meteorological data).</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Parameters explained</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li><em>Ozone</em> – Mean ozone in parts per billion from 1300 to 1500 hours at Roosevelt Island.</li>
+<li><em>Solar.R</em> - Solar radiation in Langleys in the frequency band 4000–7700 Angstroms from 0800 to 1200 hours at Central Park.</li>
+<li><em>Wind</em> - Average wind speed in miles per hour at 0700 and 1000 hours at LaGuardia Airport.</li>
+<li><em>Temp</em> - Maximum daily temperature in degrees Fahrenheit at La Guardia Airport.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Process</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Step 1: Select the ‘Air Quality’ variable one wants to assess e.g. wind, temperature etc.</li>
+<li>Step 2: Select the time period (month) for which the assessment needs to be done e.g. May</li>
+<li>Step 3: Click on submit button</li>
+<li>Step 4: The output is displayed on the screen</li>
+</ol>
+
+<h2>Output</h2>
+
+<p>The output sheet is in the form of a bar chart which displays the required information.<br/>
+X-axis: displays the days of the month from Day 1 to Day 31.<br/>
+Y-axis: The chosen variable data points e.g. if wind variable is selected then it displays the ‘miles per hour’ on the given axis, following are the data points for all variables.<br/></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Application Screenshot</h2>
+	<img src="shiny.png" width="1000" height="500"/>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Dataset'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Parameters explained'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Process'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Slide 2'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
